@@ -1,0 +1,81 @@
+header{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 11px;
+  height: 80px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10),
+              0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+header>h2{
+  font-size: 24px;
+  color: black;
+  font-weight: 400;
+}
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #fafaf8; 
+}
+main{
+  padding: 30px 30px 10px;
+}
+form{
+  margin: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
+  justify-content: center;
+  display: flex;
+  gap: 12px;
+  height: 38px;
+}
+form>input{
+  padding: 9px 13px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+form>button{
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color:#141413;
+  color:#fafaf8;
+  margin-left: 10px;
+  width: 150px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.get-recipe{
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: rgb(228, 213, 216);
+}
+.get-recipe>button{
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color:#c1853d;
+  color:#fafaf8;
+  width: 150px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 10px 20px;
+}
